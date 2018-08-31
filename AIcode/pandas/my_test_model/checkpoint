@@ -1,0 +1,2 @@
+model_checkpoint_path: "soft.ckpt-49000"
+all_model_checkpoint_paths: "soft.ckpt-49000"
