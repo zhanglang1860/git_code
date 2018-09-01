@@ -27,6 +27,10 @@ def weibull_distribution_avg(c,k):
     # Γ  is the gamma function. 
     avg=gamma(1+1/k)*c
     return avg
+
+def custom_formatter(params):
+    return params.value[2]
+
 P = np.zeros([20,40,40])
 PP = np.zeros([20,40,40])
 avg=np.zeros([40,40])
@@ -48,7 +52,7 @@ P[0,:,:]=0;PP[0,:,:]=0
 
 page = Page()  
 #attr = ["{}m/s".format(i) for i in range(0,20)]
-dt=np.dtype([('name','S5')])
+dt=np.dtype([('name','S6')])
 
 attr=np.empty((20),dtype=dt)
 attrA=np.empty((40),dtype=dt)
@@ -73,11 +77,11 @@ for ci in range(0,40):
         v1 = [P[i,ci,stdk] for i in range(0,20)]
         v2 = [PP[i,ci,stdk] for i in range(0,20)]
         v2=np.multiply(v2,100)
-    v3[ci]=avg[ci,stdk] 
+    v3[ci]=avg[ci,stdk]
     c=round(c,2)
     Line_name1 ="weibull_distribution_accumulation"+str(c)
     Line_name1 = Line("when change A")
-    Line_name1.add("weibull_distribution when A="+str(c),attr, v1,is_xaxislabel_align=True,is_xaxis_boundarygap=False,line_curve =0.2)
+    Line_name1.add("weibull_distribution when A="+str(c),attr, v1,is_xaxislabel_align=True,is_xaxis_boundarygap=False,line_curve =0.2,tooltip_formatter=custom_formatter)
   
     Line_name2 ="weibull_distribution_AK"+str(c)
     Line_name2 = Line("when change A")
@@ -91,12 +95,11 @@ for ci in range(0,40):
         yaxis_max=30,
         yaxis_force_interval=6,
         line_color='#ff6347',
-        is_smooth=True,
-        line_curve =0.2
+        tooltip_formatter=custom_formatter,
     )
   
 
-    overlap = Overlap(width=1200, height=600)
+    overlap = Overlap()
     overlap.add(Line_name2)
     overlap.add(Line_name1, is_add_yaxis=True, yaxis_index=1)
 
@@ -115,7 +118,7 @@ for ki in range(0,40):
     k=round(k,2)
     Line_name3 ="weibull_distribution_accumulation"+str(k)
     Line_name3 = Line("when change K")
-    Line_name3.add("weibull_distribution when K="+str(k),attr, v1,is_xaxislabel_align=True,is_xaxis_boundarygap=False,line_curve =0.2)
+    Line_name3.add("weibull_distribution when K="+str(k),attr, v1,is_xaxislabel_align=True,is_xaxis_boundarygap=False,line_curve =0.2,tooltip_formatter=custom_formatter)
   
     Line_name4 ="weibull_distribution_AK"+str(k)
     Line_name4 = Line("when change K")
@@ -129,12 +132,11 @@ for ki in range(0,40):
         yaxis_max=30,
         yaxis_force_interval=6,
         line_color='#ff6347',
-        is_smooth=True,
-        line_curve =0.2
+        tooltip_formatter=custom_formatter,
     )
  
   
-    overlap = Overlap(width=1200, height=600)
+    overlap = Overlap()
     overlap.add(Line_name4)
     overlap.add(Line_name3, is_add_yaxis=True, yaxis_index=1)
 
@@ -143,12 +145,14 @@ for ki in range(0,40):
 
 Line_name5 ="weibull_distribution_avg wind speed for K"
 Line_name5 = Line("when change A")
-Line_name5.add("weibull_distribution_avg wind speed when K=2",attrA, v3,is_xaxislabel_align=True,is_xaxis_boundarygap=False,is_smooth=True)
+Line_name5.add("weibull_distribution_avg wind speed when K=2",attrA, v3,is_xaxislabel_align=True,is_xaxis_boundarygap=False,is_smooth=True,tooltip_formatter=custom_formatter)
 
 Line_name6 ="weibull_distribution_avg wind speed for A"
 Line_name6 = Line("when change K")
-Line_name6.add("weibull_distribution_avg wind speed when A=6",attrK, v4,is_xaxislabel_align=True,is_xaxis_boundarygap=False,is_smooth=True)
+Line_name6.add("weibull_distribution_avg wind speed when A=6",attrK, v4,is_xaxislabel_align=True,is_xaxis_boundarygap=False,is_smooth=True,tooltip_formatter=custom_formatter)
 
+print(attrK)
+print(v4)
 page.add(timeline_A)
 page.add(timeline_K)
 page.add(Line_name5)
