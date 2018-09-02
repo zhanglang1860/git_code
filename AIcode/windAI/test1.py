@@ -1,34 +1,19 @@
-import numpy as np
-from pyecharts import Page,Line,Bar,Overlap
-#dt_AK = np.dtype(('S10,f8', 10))  
 
-#dt = np.dtype([('name', np.str, 16), ('grades', np.float64, (2,2))]) 
+from __future__ import unicode_literals
 
-dt=np.dtype([('name','S6')])
+from pyecharts import Bar
+from pyecharts.conf import PyEchartsConfig
+from pyecharts.engine import EchartsEnvironment
+from pyecharts.utils import write_utf8_html_file
 
-attr=np.empty((20),dtype=dt)
-attrA=np.empty((40),dtype=dt)
-attrK=np.empty((40),dtype=dt)
-
-def custom_formatter(params):
-    a= round(params.value[2],2)
-    return a
-for i in range(0,20):
-    attr[i]=str(i)+"m/s"
-for i in range(0,40):
-    attrA[i]="A="+str(round((i*0.05+5),2))
-    attrK[i]="K="+str((round((i*0.05+1.5),2)))
-
-v1 = np.random.rand(40)
-print(v1)
-Line_name1 ="weibull_distribution_accumulation"
-Line_name1 = Line("when change A")
-Line_name1.add("weibull_distribution when A=",attrA, v1,is_xaxislabel_align=True,is_xaxis_boundarygap=False,line_curve =0.2,tooltip_formatter=custom_formatter)
-
-page = Page()  
-page.add(Line_name1)
-page.render()  
-
-v3=np.empty(2)
-print(v3)
-print(attr)
+attr = ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"]
+v1 = [5, 20, 36, 10, 75, 90]
+v2 = [10, 25, 8, 60, 20, 80]
+bar = Bar("柱状图数据堆叠示例")
+bar.add("商家A", attr, v1, is_stack=True)
+bar.add("商家B", attr, v2, is_stack=True)
+config = PyEchartsConfig(echarts_template_dir='my_tpl', jshost='https://cdn.bootcss.com/echarts/3.6.2')
+env = EchartsEnvironment(pyecharts_config=config)
+tpl = env.get_template('tpl_demo.html')
+html = tpl.render(bar=bar)
+write_utf8_html_file('my_tpl_demo2.html', html)

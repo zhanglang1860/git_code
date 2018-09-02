@@ -29,7 +29,10 @@ def weibull_distribution_avg(c,k):
     return avg
 
 def custom_formatter(params):
-    return params.value[2]
+
+    Value= int(float(params.value)*100)
+    Value=Value/100
+    return Value
 
 P = np.zeros([20,40,40])
 PP = np.zeros([20,40,40])
@@ -81,7 +84,7 @@ for ci in range(0,40):
     c=round(c,2)
     Line_name1 ="weibull_distribution_accumulation"+str(c)
     Line_name1 = Line("when change A")
-    Line_name1.add("weibull_distribution when A="+str(c),attr, v1,is_xaxislabel_align=True,is_xaxis_boundarygap=False,line_curve =0.2,tooltip_formatter=custom_formatter)
+    Line_name1.add("weibull_distribution when A="+str(c),attr, v1,is_xaxislabel_align=True,is_xaxis_boundarygap=False,line_curve =0.2)
   
     Line_name2 ="weibull_distribution_AK"+str(c)
     Line_name2 = Line("when change A")
@@ -95,7 +98,7 @@ for ci in range(0,40):
         yaxis_max=30,
         yaxis_force_interval=6,
         line_color='#ff6347',
-        tooltip_formatter=custom_formatter,
+        
     )
   
 
@@ -118,7 +121,7 @@ for ki in range(0,40):
     k=round(k,2)
     Line_name3 ="weibull_distribution_accumulation"+str(k)
     Line_name3 = Line("when change K")
-    Line_name3.add("weibull_distribution when K="+str(k),attr, v1,is_xaxislabel_align=True,is_xaxis_boundarygap=False,line_curve =0.2,tooltip_formatter=custom_formatter)
+    Line_name3.add("weibull_distribution when K="+str(k),attr, v1,is_xaxislabel_align=True,is_xaxis_boundarygap=False,line_curve =0.2)
   
     Line_name4 ="weibull_distribution_AK"+str(k)
     Line_name4 = Line("when change K")
@@ -132,7 +135,7 @@ for ki in range(0,40):
         yaxis_max=30,
         yaxis_force_interval=6,
         line_color='#ff6347',
-        tooltip_formatter=custom_formatter,
+        
     )
  
   
