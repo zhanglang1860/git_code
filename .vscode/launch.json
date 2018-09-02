@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Python Experimental: Terminal (external)",
+            "type": "pythonExperimental",
+            "request": "launch",
+            "program": "${file}",
+            "console": "externalTerminal"
+        },
+        {
             "name": "Python Experimental: Terminal (integrated)",
             "type": "pythonExperimental",
             "request": "launch",
