@@ -1,29 +1,41 @@
-from pyecharts import Overlap, Bar, Line, Grid
+# coding=utf8
+"""
+Test cases for jinja2 template functions
+"""
 
-grid = Grid()
+from __future__ import unicode_literals
+from nose.tools import raises
 
-attr = ["{}月".format(i) for i in range(1, 13)]
-v1 = [2.0, 4.9, 7.0, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0, 6.4, 3.3]
-v2 = [2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3]
-v3 = [2.0, 2.2, 3.3, 4.5, 6.3, 10.2, 20.3, 23.4, 23.0, 16.5, 12.0, 6.2]
+from pyecharts.utils import get_resource_dir
+from pyecharts import Bar, Map
+from pyecharts.engine import BaseEnvironment, EchartsEnvironment
+from pyecharts.conf import PyEchartsConfig
+from pyecharts.utils import write_utf8_html_file
+ECHARTS_ENV = EchartsEnvironment()
 
-bar = Bar(title="Overlap+Grid 示例", title_pos="40%")
-bar.add("蒸发量", attr, v1)
-bar.add(
-    "降水量",
-    attr,
-    v2,
-    yaxis_formatter=" ml",
-    yaxis_max=250,
-    legend_pos="85%",
-    legend_orient="vertical",
-    legend_top="45%",
-)
-line = Line()
-line.add("平均温度", attr, v3, yaxis_formatter=" °C",is_splitline_show=False,line_color='#ff6347')
-overlap = Overlap(width=1200, height=600)
-overlap.add(bar)
-overlap.add(line, is_add_yaxis=True, yaxis_index=1)
 
-grid.add(overlap, grid_right="20%")
-grid.render()
+def create_demo_bar(chart_id_demo=None):
+    attr = ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"]
+    v1 = [5, 20, 36, 10, 75, 90]
+    v2 = [10, 25, 8, 60, 20, 80]
+    bar = Bar("柱状图数据堆叠示例")
+    bar.add("商家A", attr, v1, is_stack=True)
+    bar.add("商家C", attr, v2, is_stack=True)
+    bar.use_theme("Mywalden")
+    if chart_id_demo:
+        bar._chart_id = chart_id_demo
+    return bar
+
+
+def test_echarts_js_dependencies():
+    env = EchartsEnvironment(
+        pyecharts_config=PyEchartsConfig()
+       # pyecharts_config=PyEchartsConfig()
+    )
+    tpl = env.get_template('tpl_demo.html')
+    bar = create_demo_bar()
+    html = tpl.render(bar=bar)
+    # flake8: noqa
+    write_utf8_html_file('my_tpl_demo4.html', html)
+
+test_echarts_js_dependencies()

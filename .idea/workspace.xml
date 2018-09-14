@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3092312d-2ace-4e5f-bdb2-9e090e4fdd25" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/AIcode/CNN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIcode/pandas/graph/Untitled-1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIcode/pandas/graph/render.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIcode/pandas/graph/soft.ph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIcode/pandas/iris.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIcode/pandas/my_test_model/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIcode/pandas/my_test_model/soft.ckpt-49000.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIcode/pandas/my_test_model/soft.ckpt-49000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIcode/pandas/my_test_model/soft.ckpt-49000.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIcode/pandas/pandas02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIcode/pandas/pandas03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIcode/pandas/pandas03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIcode/pandas/text.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIcode/render.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIcode/windAI/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/AIcode/windAI/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIcode/windAI/render.html" beforeDir="false" afterPath="$PROJECT_DIR$/AIcode/windAI/render.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIcode/windAI/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AIcode/windAI/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIcode/windAI/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/AIcode/windAI/test3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIcode/windAI/time.py" beforeDir="false" afterPath="$PROJECT_DIR$/AIcode/windAI/time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIcode/windAI/time1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AIcode/windAI/time1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Science_with_Java" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Science_with_Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Science_with_Java/src/main/java/com/oreilly/dswj/mapreduce/BasicMapReduceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Science_with_Java/src/main/java/com/oreilly/dswj/mapreduce/BasicMapReduceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyecharts-users-cases" beforeDir="false" afterPath="$PROJECT_DIR$/pyecharts-users-cases" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyecharts-users-cases/advance-usage/custom_engine_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyecharts-users-cases/advance-usage/custom_engine_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyecharts-users-cases/advance-usage/my_tpl/tpl_demo.html" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1782375140">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="10" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AIcode/windAI/time1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/AIcode" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/AIcode/windAI/time.py" />
+        <option value="$PROJECT_DIR$/AIcode/windAI/time1.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="377" />
+    <option name="y" value="92" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="git_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_code" type="462c0819:PsiDirectoryNode" />
+              <item name="AIcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_code" type="462c0819:PsiDirectoryNode" />
+              <item name="AIcode" type="462c0819:PsiDirectoryNode" />
+              <item name="windAI" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\编程代码\git_code\AIcode\windAI" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.time1">
+    <configuration name="time" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="git_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIcode/windAI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AIcode/windAI/time.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="time1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="git_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIcode/windAI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AIcode/windAI/time1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.time" />
+      <item itemvalue="Python.time1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.time1" />
+        <item itemvalue="Python.time" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3092312d-2ace-4e5f-bdb2-9e090e4fdd25" name="Default Changelist" comment="" />
+      <created>1536844408721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536844408721</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32899022" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AIcode/windAI/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AIcode/windAI/test3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AIcode/windAI/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AIcode/windAI/time1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
